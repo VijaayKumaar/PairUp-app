@@ -1,0 +1,59 @@
+/* Styling for the image gallery container */
+.flex {
+  display: flex;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+/* Styling for the individual images in the gallery */
+.img-container {
+  width: calc(33.33% - 0.5rem);
+  height: 150px;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Styling for the Explore section */
+.p-4 {
+  padding: 1rem;
+}
+
+.bg-gray-100 {
+  background-color: #f1f1f1;
+}
+
+.rounded-lg {
+  border-radius: 8px;
+}
+
+/* Styling for the "see all" link */
+.text-blue-500 {
+  color: #007bff;
+}
+
+/* Styling for the grid of images */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+}
+
+.max-h-96 {
+  max-height: 384px; /* Adjust this height as needed */
+}
+
+.overflow-y-auto {
+  overflow-y: auto;
+}
+
